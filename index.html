@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeylaparisDev - YouTube</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Pantalla de carga premium -->
+  <div id="loader" class="loader-screen">
+    <div class="spinner"></div>
+    <p class="loading-text">Cargando canal rosa...</p>
+  </div>
+
+  <div class="content" style="display: none;">
+
+    <div class="background"></div>
+
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <h1>LeylaparisDev</h1>
+      </div>
+      <p class="subtitle">Contenido bonito, divertido y lleno de rosa 💖</p>
+    </header>
+
+    <main>
+      <!-- Último video subido (se actualiza automáticamente) -->
+      <section class="latest-video">
+        <h2>Último Video Subido</h2>
+        <div id="latest-video-container">
+          <p style="color:#ff69b4; font-size:1.3rem;">Cargando el último video...</p>
+        </div>
+      </section>
+
+      <!-- Botones premium -->
+      <div class="buttons">
+        <a href="https://www.youtube.com/channel/UC2at4aELEO_fqQ1yU43Ev4Q" target="_blank" class="btn subscribe">
+          <i class="fab fa-youtube"></i> Suscribirse al Canal
+        </a>
+        <a href="https://www.youtube.com/channel/UC2at4aELEO_fqQ1yU43Ev4Q/videos" target="_blank" class="btn watch">
+          <i class="fas fa-play"></i> Ver Todos los Videos
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <p>Hecho con 💖 especialmente para LeylaparisDev</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
